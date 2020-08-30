@@ -26,14 +26,32 @@
       color: #907E6D;
       font: sans-serif;
       font-family: Helvetica;
+      font-size: 30px;
     }
 
 
     .container {
       margin-left: 100px;
       margin-right: 100px;
-      height: 750px;
-      background-color: White;
+      height: 715px;
+      background-color: white;
+      position: relative;
+    }
+
+    .containerOne {
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 527px;
+      background-color: white;
+      position: relative;
+    }
+
+
+    .containerTwo {
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 120px;
+      background-color: white;
       position: relative;
     }
 
@@ -41,17 +59,16 @@
       margin-left: 100px;
       margin-right: 100px;
       height: 100px;
-      background-color: White;
+      background-color: white;
       position: relative;
     }
 
     .left {
       width: 45%;
-      height: 750px;
       background-color: White;
       display: inline-block;
       position: absolute;
-      top: 0;
+      /* top: 0; */
     }
 
     .right {
@@ -122,6 +139,20 @@
       margin-left: 0;
     }
 
+    #headers2 {
+      margin-left: 0;
+      margin-top: 50px;
+      margin-left: -77px;
+    }
+
+    #headersRight {
+      margin-left: -77px;
+    }
+
+    #headersLeft {
+      margin-left: 10px;
+    }
+
 
     </style>
     <title>Asiya Rizvi</title>
@@ -129,58 +160,47 @@
 
   <body>
     <h1>Asiya Rizvi
-      <a id = "link1" class="link" href="CV8.pdf">Resume</a>
+      <a id = "link1" class="link" href="CV9.pdf">Resume</a>
       <a id = "link2" class="link" href="https://www.linkedin.com/in/asiya-rizvi/">Linkedin</a>
       <a id = "link3" class="link" href=https://github.com/asiyarizvi>GitHub</a>
     </h1>
     <div id="bio"> I am a fourth year combined Computer Science and Graphic Design major at Northeastern University. Through my studies, I have gained experience in multiple programming languages and IDEs as well as numerous design softwares. Aside from learning hard skills, I have also developed skills in working collaboratively to solve difficult programming problems, as most of my projects are completed in pairs. My interests include sustainability, fine art, UX design, and game development. </div>
+
+
     <div class="container2"></div>
     <div class="container">
-    <div class="left"><img src = "Rizvi_Asiya_typeposter7.svg" width = 500px height = 700px></div>
-    <div class ="right"><h2>Orpheus Type Poster</h2>
-      <p>
-        I completed this poster for my Typography class. The assignment was to
-        select a typeface and produce a poster encapsulating the name of the
-        creator of the typeface, the year that typeface was created, and any
-        forms we found particularly interesting.</p>
-      <p>
-        My design focuses on the f, t, and g. The f and t demonstrate the
-        sharpness of of some letters while the g demonstrates an elegantly round
-         form while also including a sharp edge towards the top.</p>
+    <div class="left"><h2 id ="headers">
+      <a href="TPosters.html">
+      <img class = "pic" src = "Rizvi_Asiya_typeposter2nd.svg" width = 500px height = 700px>
+    </a></h2>
+    </div>
+    <div class ="right"><h2 id ="headers2">Orpheus Type Poster</h2>
   </div>
     </div>
 
-    <div class="container2"></div>
-    <div class="container">
-    <div class="right"><img src = "Rizvi_Asiya_Typeposter2nd.svg" width = 500px height = 700px></div>
-    <div class ="left"><h2 id ="headers">Orpheus Type Poster Part II</h2>
-      <p>I completed this poster as the second part of the poster above. The
-        assignment was to experiment with tracking and italics with the same
-        typeface as well as include a short bio of the creator.</p>
-  </div>
-    </div>
 
-    <div class="container2"></div>
-    <div class="container">
-    <div class="left"><img src = "bodies.svg" width = 500px height = 500px></div>
-    <div class ="right"><h2 id ="headers">Print Pattern</h2>
-      <p>I created this print on Adobe Illustrator as a side project.
-        I drew the shape and used Illustrator to experiment with different color
-        combinations and repetitions.</p>
-    </div>
-      </div>
-
-    <div class="container2"></div>
-    <div class="container">
-    <div class ="right"><h2 id ="headers">
-      <a href="series4.pdf">
+    <div class="containerTwo"></div>
+    <div class="containerOne">
+    <div class ="left"><h2 id ="headersLeft">
+      <a href="brochures.html">
         <img class="pic" alt = "seriesphoto" src = "series4p2.svg" width = 500px height = 500px>
       </a></h2>
     </div>
-    <div class="left"><h2 id ="headers">Northeastern CAMD Brochure Redesign</h2>
-      <p>I created this series on InDesign for a typography project. We were given the text for each course and were instructed to redesign a brochure for the College of Arts, Media and Design using those texts. My brochure is designed less for the purpose of readability and more for the purpose of exploring unique design, compositions as well as the entire system. (Click image to see the full series)</p>
+    <div class="right"><h2 id ="headers2">Northeastern CAMD Brochure Redesign</h2>
     </div>
       </div>
+
+
+      <div class="containerTwo"></div>
+      <div class="containerOne">
+      <div class ="left"><h2 id ="headersLeft">
+        <a href="domedemo.html">
+          <img class="pic" src = "domeapp.svg" width = 500px height = 500px>
+        </a></h2>
+      </div>
+      <div class="right"><h2 id ="headers2">Dome App</h2>
+      </div>
+        </div>
 
 
   </body>
